@@ -23,3 +23,23 @@ https://github.com/user-attachments/assets/3e18e7c2-61eb-4549-b2fb-e130e48f69e3
 ---
 ## How to add the extension to Firefox:
 https://github.com/user-attachments/assets/8f9860be-b86c-48ba-af2d-f4ae6c619158
+
+Since the extension is not signed by Mozilla, it cannot be installed normally in Firefox. Without a valid signature, installation is limited to temporary debug mode.
+
+### Firefox Developer Edition
+
+An alternative is to use [Firefox Developer Edition](https://www.firefox.com/en-US/channel/desktop/developer/). It allows you to disable the signature requirement and install the extension manually.
+
+1. Open Firefox Developer Edition.
+2. In the address bar, go to `about:config`.
+3. Search for the following preference and change its value to `false`:
+
+```text
+xpinstall.signatures.required = false
+```
+
+4. Restart the browser.
+
+After that, you will be able to install the extension normally without using debug mode.
+
+https://github.com/user-attachments/assets/2ca08de9-2bcb-4c64-a13d-dbbeef33bd25
