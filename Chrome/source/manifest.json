@@ -1,0 +1,85 @@
+{
+	"name": "Discord Sale",
+	"version": "1.0",
+	"manifest_version": 3,
+
+	"icons": {
+		"16": "icons/icon16.png",
+		"32": "icons/icon32.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+
+	"action": {
+		"default_title": "Discord Sale",
+		"default_icon": {
+			"16": "icons/icon16.png",
+			"32": "icons/icon32.png",
+			"48": "icons/icon48.png",
+			"128": "icons/icon128.png"
+		}
+	},
+
+	"permissions": [
+		"storage",
+		"webRequest"
+	],
+
+	"content_scripts": [
+		{
+			"matches": [
+				"https://discord.com/*"
+			],
+			"js": [
+				"content.js"
+			]
+		}
+	],
+
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"image/sale.gif",
+				"image/sale-dark.png",
+				"image/sale-dark.gif",
+				"image/sale-light.png",
+				"image/sale-light.gif",
+				"image/All.png",
+				"image/Fur.png",
+				"image/Head.png",
+				"image/Ears.png",
+				"image/Eyes.png",
+				"image/Mouth.png",
+				"image/Neck.png",
+				"image/Tail.png",
+				"image/Hair_Style.png",
+				"image/Contact_Lenses.png",
+				"image/Tattoo.png",
+				"image/Hands.png",
+				"image/Small_Box.png",
+				"image/Large_Box.png",
+				"image/Short_Plank.png",
+				"image/Long_Plank.png",
+				"image/Cannonball.png",
+				"image/Balloon.png",
+				"image/Anvil.png",
+				"image/Ball.png",
+				"image/Trampoline.png",
+				"image/BR.png",
+				"image/ES.png",
+				"image/GB.png"
+			],
+			"matches": [
+				"https://discord.com/*"
+			]
+		}
+	],
+
+	"host_permissions": [
+		"https://discord.com/*"
+	],
+
+	"background": {
+		"service_worker": "background.js"
+	}
+}
