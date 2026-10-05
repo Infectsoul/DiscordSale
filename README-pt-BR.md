@@ -23,3 +23,23 @@ https://github.com/user-attachments/assets/3e18e7c2-61eb-4549-b2fb-e130e48f69e3
 ---
 ## Como adicionar a extensão no Firefox:
 https://github.com/user-attachments/assets/8f9860be-b86c-48ba-af2d-f4ae6c619158
+
+Como a extensão não possui uma assinatura da Mozilla, ela não pode ser instalada normalmente no Firefox. Sem uma assinatura válida, a instalação fica limitada ao modo de depuração, que é temporário.
+
+### Firefox Developer Edition
+
+Uma alternativa é utilizar o [Firefox Developer Edition](https://www.firefox.com/pt-BR/channel/desktop/developer/). Nele, é possível desativar a exigência de assinatura para instalar a extensão manualmente.
+
+1. Abra o Firefox Developer Edition.
+2. Na barra de endereço, acesse `about:config`.
+3. Pesquise pelo seguinte parâmetro e altere o valor para `false`:
+
+```text
+xpinstall.signatures.required = false
+```
+
+4. Reinicie o navegador.
+
+Depois disso, será possível instalar a extensão normalmente, sem a necessidade de utilizar o modo de depuração.
+
+https://github.com/user-attachments/assets/2ca08de9-2bcb-4c64-a13d-dbbeef33bd25
