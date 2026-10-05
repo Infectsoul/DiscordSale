@@ -22,4 +22,4 @@ https://github.com/user-attachments/assets/3e18e7c2-61eb-4549-b2fb-e130e48f69e3
 
 ---
 ## How to add the extension to Firefox:
-https://github.com/user-attachments/assets/544994dd-2b3a-4d08-be16-3812d2018749
+https://github.com/user-attachments/assets/6d0b0a5b-1361-4cdf-af82-138b740d2f31
