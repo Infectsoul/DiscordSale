@@ -28,7 +28,7 @@ The `.xpi` version provided in this project has a valid Mozilla signature and ca
 
 Download the `DiscordSale-Firefox.xpi` file and open it with Firefox. The browser will display a confirmation to add the extension.
 
-[https://github.com/user-attachments/assets/c35d2771-abea-461c-a02f-95b97f8fa00f](https://github.com/user-attachments/assets/c35d2771-abea-461c-a02f-95b97f8fa00f)
+https://github.com/user-attachments/assets/74846307-576e-4c0d-8dee-522d965d51f7
 
 ---
 The version available in the source code is not signed by Mozilla. Therefore, it cannot be installed normally in standard versions of Firefox.
