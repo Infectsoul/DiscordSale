@@ -14,7 +14,9 @@ https://github.com/user-attachments/assets/df8eb0ca-0118-4cc2-b325-cb1c51a77c05
 ### Sobre as permissões:
 **webRequest:** permite que o `background.js` acompanhe as requisições feitas pelo Discord e capture alguns campos específicos do cabeçalho. Esses dados são necessários para realizar requisições via `fetch`, como buscar mensagens e adicionar ou remover reações nas mensagens.
 
-**storage:** fornece um armazenamento local da extensão no computador do usuário. É utilizado para salvar preferências e configurações da extensão e também para compartilhar os campos do cabeçalho capturados pelo `background.js` com o `content.js`.
+**storage:** fornece um armazenamento local da extensão no navegador do usuário. É utilizado para salvar preferências e configurações da extensão e também para compartilhar os campos do cabeçalho capturados pelo `background.js` com o `content.js`.
+
+Os dados capturados pelo `webRequest` são utilizados apenas para as funcionalidades da extensão e não são enviados para servidores externos.
 
 ---
 ### Como adicionar a extensão no Chrome e Edge:

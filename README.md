@@ -14,7 +14,9 @@ https://github.com/user-attachments/assets/df8eb0ca-0118-4cc2-b325-cb1c51a77c05
 ### About permissions:
 **webRequest:** allows `background.js` to monitor requests made by Discord and capture specific header fields. This data is required to make requests via `fetch`, such as retrieving messages and adding or removing reactions from messages.
 
-**storage:** provides local storage for the extension on the user's computer. It is used to save the extension's preferences and settings, as well as to share the header fields captured by `background.js` with `content.js`.
+**storage:** provides local storage for the extension in the user's browser. It is used to save the extension's preferences and settings, as well as to share the header fields captured by `background.js` with `content.js`.
+
+The data captured by `webRequest` is used solely for the extension's functionality and is not sent to external servers.
 
 ---
 ### How to add the extension to Chrome and Edge:
